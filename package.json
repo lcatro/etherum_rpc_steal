@@ -1,0 +1,15 @@
+{
+  "name": "eth-stealer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "evilscan": "^1.6.1",
+    "web3": "^1.0.0-beta.35"
+  }
+}
