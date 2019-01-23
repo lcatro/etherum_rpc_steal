@@ -50,7 +50,7 @@ def try_connect_by_http(ip,port) :
 def split_network_session(string) :
     offset = string.find('/')
     
-    if not -1 == offset :
+    if -1 == offset :
         return False
     
     return string.split('/')
